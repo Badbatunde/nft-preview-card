@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.equilibrium-image img {
+  width: 260px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.card-bg {
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  margin: 50px auto;
+  border-radius: 40px;
+}
+
+.container {
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 10px auto;
+  text-align: left;
+  padding: 20px 20px;
+}
+
+.sect h3 {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  margin: 15px auto;
+}
+
+.sect h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+.sect h3 a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.sect p {
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.subsection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.subsection > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subsection img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  margin-right: 5px;
+}
+
+.subsection p {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.footer {
+  display: flex;
+  padding-top: 15px;
+  align-items: center;
+  padding-bottom: 5px;
+  border-top: 1px solid hsl(216, 39%, 23%);
+}
+
+.footer img {
+  width: 30px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.footer p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: hsl(215, 51%, 70%);
+}
+
+span a {
+  text-decoration: none;
+  color: white;
+}
+
+span a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.eth p {
+  color: hsl(178, 100%, 50%);
+  font-size: 12px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
+
+.clock p {
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+}
