@@ -31,7 +31,7 @@ body {
   position: absolute;
   z-index: 99;
   left: 0;
-  padding: 100px 50px;
+  padding: 100px;
   width: 260px;
   height: 260px;
 }
@@ -115,7 +115,7 @@ body {
   padding-top: 15px;
   align-items: center;
   padding-bottom: 5px;
-  border-top: 1px solid hsl(216, 39%, 23%);
+  border-top: 1.5px solid hsl(216, 39%, 23%);
 }
 
 .footer img {
