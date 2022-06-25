@@ -14,11 +14,31 @@ body {
   overflow: hidden;
 }
 
+.equilibrium-image {
+  position: relative;
+  display: inline-block;
+}
+
 .equilibrium-image img {
   width: 260px;
   height: auto;
   object-fit: contain;
   border-radius: 10px;
+}
+
+.equilibrium-image .img-top {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  padding: 100px 50px;
+  width: 260px;
+  height: 260px;
+}
+
+.equilibrium-image:hover .img-top {
+  display: inline;
+  background-color: rgba(0, 255, 247, 0.5);
 }
 
 .card-bg {
@@ -37,6 +57,7 @@ body {
   margin: 10px auto;
   text-align: left;
   padding: 20px 20px;
+  box-shadow: -5px 10px rgba(11, 13, 11, 0.1);
 }
 
 .sect h3 {
@@ -103,6 +124,7 @@ body {
   object-fit: contain;
   border-radius: 50%;
   margin-right: 15px;
+  border: 1px solid white;
 }
 
 .footer p {
